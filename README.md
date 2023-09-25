@@ -1,1 +1,2 @@
-# masterthesisproposals2023
+# Proposal for master thesis at DPella 2023
+
