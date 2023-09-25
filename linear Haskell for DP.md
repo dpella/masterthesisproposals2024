@@ -112,30 +112,37 @@ result will change, at most, by 1.
 
 Several works have studied techniques to reason about program sensitivity by
 typing, most of which in the context of differential privacy. An early approach
-is the work by [Reed and Pierce](XXX). They designed an indexed linear type
-system for differential privacy where types explicitly track sensitivities
-thanks to types of the form $!_r A \multimap B$. In their work, this type can
-only be assigned to terms representing functions from $A$ to $B$ which have
-sensitivity less than $r$. Functions of these forms could be turned into
-differentially private programs by adding noise carefully calibrated to $r$. The
-type system by Reed and Pierce was implemented in the language Fuzz which was
-also extended with a timed runtime to avoid side channels with respect to the
-differential privacy guarantee [HaeberlenPN11](XXX). Automated type inference
-for this type system was studied by D'Antoni \emph{et al.} [DAntoniGAHP13](XXX),
-and its semantics foundation was studied by Azevedo de Amorim \emph{et al.}
-[AmorimGHKC17](XXX).
+is the work by [Reed and
+Pierce](https://www.cis.upenn.edu/~bcpierce/papers/dp.pdf). They designed an
+indexed linear type system for differential privacy where types explicitly track
+sensitivities thanks to types of the form $!_r A \multimap B$. In their work,
+this type can only be assigned to terms representing functions from $A$ to $B$
+which have sensitivity less than $r$. Functions of these forms could be turned
+into differentially private programs by adding noise carefully calibrated to
+$r$. The type system by Reed and Pierce was implemented in the language Fuzz
+which was also extended with a timed runtime to avoid side channels with respect
+to the differential privacy guarantee
+[HaeberlenPN11](https://haeberlen.cis.upenn.edu/papers/fuzz-sec2011.pdf).
+Automated type inference for this type system was studied by D'Antoni et al.
+[DAntoniGAHP13](https://haeberlen.cis.upenn.edu/papers/sensitivity-fpcdsl2013.pdf),
+and its semantics foundation was studied by Azevedo de Amorim et al.
+[AmorimGHKC17](https://arxiv.org/abs/1503.04522).
 
 Fuzz was further extended in several directions: Eigner and Maffei
-[EignerM13](XXX) extended Fuzz to reason about distributed data and
-differentially private security protocols. Gaboardi \emph{et al.}
-[GaboardiHHNP13] extended Fuzz's type checker by means of a simple form of
-dependent types. Winograd-Cort \emph{et al.}
-[DBLP:journals/pacmpl/Winograd-CortHR17] extended Fuzz type checker and runtime
-system to an adaptive framework. Zhang \emph{et al.} [ZhangRHP019] extended the
-ideas of Fuzz to a three-level logic for reasoning about sensitivity for
-primitives that are not captured in Fuzz. Azevedo de Amorim \emph{et al.}
-[AmorimGHK19] add to Fuzz more general rules for reasoning about the sensitivity
-of programs returning probability distributions. 
+[EignerM13](https://ieeexplore.ieee.org/document/6595834) extended Fuzz to
+reason about distributed data and differentially private security protocols.
+Gaboardi \emph{et al.}
+[GaboardiHHNP13](https://haeberlen.cis.upenn.edu/papers/dfuzz-popl2013.pdf)
+extended Fuzz's type checker by means of a simple form of dependent types.
+[Winograd-Cort et
+al.](https://haeberlen.cis.upenn.edu/papers/adafuzz-icfp2017.pdf) extended Fuzz
+type checker and runtime system to an adaptive framework. Zhang et al.
+[ZhangRHP019](https://arxiv.org/abs/1905.12594) extended the ideas of Fuzz to a
+three-level logic for reasoning about sensitivity for primitives that are not
+captured in Fuzz. Azevedo de Amorim et al.
+[AmorimGHK19](https://ieeexplore.ieee.org/document/8785715) add to Fuzz more
+general rules for reasoning about the sensitivity of programs returning
+probability distributions. 
 
 ### Goal of the thesis 
 

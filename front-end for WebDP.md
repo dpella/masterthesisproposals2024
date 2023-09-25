@@ -59,7 +59,11 @@ of all the information being handled. In that light, we propose to develop the f
 
 ## Related work 
 
-- PSI name, any other? 
+A good starting point to have an idea about the direction of this project is to
+take a look (and use) the system [PSI (Ψ): a Private data Sharing
+Interface](https://privacytools.seas.harvard.edu/psi-%CF%88-private-data-sharing-interface). 
+
+**Help**: Marco, Dave is there any other system that you know of? 
 
 ## What would you learn by doing this project? 
 
