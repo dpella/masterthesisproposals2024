@@ -147,7 +147,13 @@ probability distributions.
 ### Goal of the thesis 
 
 The overall goal of to create a domain specific language capable to embed
-Fuzz-like systems in linear Haskell. So, the contribution of the thesis will be: 
+Fuzz-like systems in [linear
+Haskell](https://ghc.gitlab.haskell.org/ghc/doc/users_guide/exts/linear_types.html).
+Linear Haskell is a type system extension for Haskell (`-XLinearTypes`) that
+allows enforcing that values are used exactly once. This can help optimize code
+by enabling more aggressive optimizations, e.g., like copy elision. 
+
+So, the contribution of the thesis will be: 
 
 1. An embedded of Fuzz-like languages in linear Haskell
 2. Understanding the differences in the semantics of linear types in Fuzz-like

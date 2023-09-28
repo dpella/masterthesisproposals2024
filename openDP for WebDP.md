@@ -3,7 +3,7 @@
 ## Status 
 
     - Available
-    - Level: master thesis 
+    - Level: bachelor thesis 
 
 ## Company 
 
@@ -48,10 +48,12 @@ The project consists on creating a WebDP connector to WebDP. That is
 
 - You will need to connect the different end-points of the WebDP API to OpenDP,
   which is program in Rust. 
-- Evaluate and suggest modification to the WebDP API based on how well it fits OpenDP. 
+- As a more academic question, the project should evaluate and suggest
+  modification to the WebDP API based on how well it fits OpenDP. 
 
 ## What would you learn by doing this project? 
 
-- State of the art concepts and tools for data privacy (that is capture by WebDP API)
+- State of the art concepts and tools for data privacy (that is capture by WebDP
+  API)
 - Access to world-leader researchers in data privacy to discuss about your
   design.

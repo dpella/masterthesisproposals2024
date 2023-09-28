@@ -1,4 +1,4 @@
-# A front-end design for WebDP
+# FrontDP: A Privacy-Aware Front-end for WebDP 
 
 ## Status 
 
