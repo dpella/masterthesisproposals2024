@@ -1,4 +1,3 @@
-# A connector for WebDP, a data privacy open API 
 
 ## Status 
 
