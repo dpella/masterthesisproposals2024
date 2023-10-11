@@ -1,9 +1,15 @@
+---
+colorlinks: true
+---
+
+
 # FrontDP: A Privacy-Aware Front-end for WebDP 
 
 ## Status 
 
     - Available
     - Level: bachelor thesis 
+    - Target group of students: DV, D, and IT
 
 ## Company 
 
@@ -52,7 +58,8 @@ aspects of WebDP. From a global point of view, the front-end should be able to:
 4. Plot / export results
 
 At DPella, we follow strict coding practices to ensure the security and privacy
-of all the information being handled. In that light, we propose to develop the front-end by 
+of all the information being handled. In that light, we propose to develop the
+front-end or extend existing ones (see below) by 
 
 - using [Typescript](https://www.typescriptlang.org/) to avoid simple errors. Nevertheless, we could explore how the types in typescript can be used to enforce invariants of the API. 
 - following [privacy-by-design principles](https://en.wikipedia.org/wiki/Privacy_by_design). 
@@ -60,10 +67,15 @@ of all the information being handled. In that light, we propose to develop the f
 ## Related work 
 
 A good starting point to have an idea about the direction of this project is to
-take a look (and use) the system [PSI (Ψ): a Private data Sharing
+take a look (and use) the system [PSI ($\Psi$): a Private data Sharing
 Interface](https://privacytools.seas.harvard.edu/psi-%CF%88-private-data-sharing-interface). 
 
-**Help**: Marco, Dave is there any other system that you know of? 
+There exists an open source front-end graphical interface for an specific DP
+system called [DP Creator](https://github.com/opendp/dpcreator). One starting
+point for the project is to study and extend such framework to work with WebDP.
+This will also imply to contribute to the OpenDP project, which will increase
+visibility to this work in the data privacy space. 
+
 
 ## What would you learn by doing this project? 
 
