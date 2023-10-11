@@ -1,9 +1,9 @@
+<<<<<<< HEAD:openWebDP.md
 ---
 colorlinks: true
 ---
 
-
-# A connector for WebDP, a data privacy open API 
+# A general purpose API for [OpenDP](https://opendp.org/)
 
 ## Status 
 
